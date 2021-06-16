@@ -1,0 +1,48 @@
+body {
+  background: #222222;
+}
+#main-content {
+    width: 80%;
+    max-width: 560px;
+    margin: auto;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    position: relative;
+    color: #bbbbbb;
+}
+
+h3.handle {
+  float:right;
+  /* display: inline-block;*/
+}
+
+#main-content h1 {
+  color: white;
+}
+
+#main-content h2 {
+  color: white;
+}
+
+#main-content a {
+  color: white;
+}
+
+#main-content .handle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 15 15;
+}
+
+p {
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+hr {
+  color: #222222;
+}
