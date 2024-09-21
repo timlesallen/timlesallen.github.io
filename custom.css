@@ -46,3 +46,24 @@ h2 {
 hr {
   color: #222222;
 }
+
+.top {
+  animation-name: fade-in;
+  animation-duration: 5s;
+}
+
+.bottom {
+  animation-name: fly-in-from-bottom;
+  animation-duration: 1s;
+}
+
+@keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+@keyframes fly-in-from-bottom {
+  0% { position: absolute; top: 500% }
+  90% { position: absolute; top: 100% }
+  100% { position: static; }
+}
